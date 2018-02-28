@@ -1,0 +1,12 @@
+<!--pages/print/print.wxml-->
+<view class='view1'>
+</view>
+<view class="inputView" style="margin-top: 40% ">
+<input class="input" type="number" placeholder="请输入公司名称" placeholder-style="color: red" bindinput="listenerPhoneInput" />
+</view>
+<view class="inputView">
+<input class="input" placeholder="请输入车牌号" placeholder-style="color: red" bindinput="listenerPasswordInput"/>
+</view>
+
+
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="gotoPrint">下一步</button>

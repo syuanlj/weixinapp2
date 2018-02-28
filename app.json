@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/page1/page1",
+    "pages/print/print",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31ACDF",
+    "navigationBarTitleText": "蓝牙打印",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,3 @@
+<view class="view1" bindtap="toast">
+  <text>上海韵达</text>
+</view>
