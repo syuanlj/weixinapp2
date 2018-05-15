@@ -1,3 +1,8 @@
-<view class="view1" bindtap="toast">
-  <text>上海韵达</text>
+<view class="view1" bindtap="toastyunda">
+  <text>韵达</text>
+  
+</view>
+
+<view class="view2" bindtap="toastkuayue">
+  <text>跨越速运</text>
 </view>

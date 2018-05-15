@@ -5,3 +5,11 @@
   background-color: antiquewhite;
   height: 100rpx;
 }
+
+.view2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  height: 100rpx;
+}

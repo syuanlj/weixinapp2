@@ -3,18 +3,17 @@
   <!-- <label class="labelColor">请用户开启蓝牙</label>  -->
   <view class="state">
     <image class="look_state_image_left" src="/images/4.png"></image>
-    <!-- <view class="state_left">
+     <view class="state_left">
       <text class="state_text1" flex="1">适配器状态：</text>
     </view>
-    <text class="state_text1_1">{{status}}</text> -->
+    <text class="state_text1_1">{{status}}</text> 
   </view>
 
   <view class="number">
     <text class="text2">发现设备数量：</text>
     <text class="text2">{{deviceNumber}}</text>
   </view>
-  <view class="v2"></view>
-  <scroll-view scroll-y="true" style="height:380rpx">
+  <scroll-view scroll-y="true" style="height:480rpx">
     <view class="venus_list">
       <block wx:for="{{devices}}" wx:key="{{test}}">
         <view class="venus_item">
@@ -32,14 +31,17 @@
     </view>
   </scroll-view>
   <!-- <text class="tc">消息：{{errMsg}}</text> -->
-   <text class="marginLeft">适配器状态：{{status}}</text> 
+   <!-- <view class="number">
+    <text class="text2">手机蓝牙状态：</text>
+    <text class="text2">{{status}}</text>
+  </view> -->
   <!-- <text>是否搜索：{{search}}</text> -->
   <!-- <text>消息：{{msg}}</text> -->
   <!-- <text>服务：{{services}}</text> -->
   <!-- <text>设备特征值：{{characteristics}}</text> -->
   <!-- <text>设备write特征值：{{writeCharacteristicsId}}</text> -->
 
-  <view class="look_state|top_line" bindtap="action0">
+  <!-- <view class="look_state|top_line" bindtap="action0">
     <view class="look_state_left">
       <image class="look_state_image_left" src="/images/2.png"></image>
       <view class="look_state_center">
@@ -48,13 +50,13 @@
       </view>
     </view>
     <image class="look_state_image_right" src="/images/5.png"></image>
-  </view>
+  </view> -->
 
   <view class="search_bluetooth|top_line|bottom_line" bindtap="action1">
     <view class="look_state_left">
       <image class="look_state_image_left" src="/images/3.png"></image>
       <view class="look_state_center">
-        <text class="look_state_center_text1">搜索蓝牙并显示</text>
+        <text class="look_state_center_text1">搜索蓝牙</text>
         <text class="look_state_center_text2">将设备显示在列表中</text>
       </view>
     </view>
@@ -62,7 +64,7 @@
   </view>
 
 
-  <view class="print|bottom_line" bindtap="writeBLECharacteristicValue" loading="{{bool}}">
+  <view class="print|bottom_line" bindtap="sendPrinterData" loading="{{bool}}">
     <view class="look_state_left">
       <image class="look_state_image_left" src="/images/4.png"></image>
       <view class="look_state_center">
@@ -80,7 +82,7 @@
   <!-- <button type="default" class="button" bindtap="action0">查看手机蓝牙状态</button> 
    <button type="default" class="button" bindtap="action1">搜索蓝牙并显示在下面列表中</button> 
    <button type="default" class="bt" plain="true" bindtap="disconnect">断开蓝牙设备</button>  -->
-  <text class="marginLeft">蓝牙设备列表⬇️</text>
+  <!-- <text class="marginLeft">蓝牙设备列表⬇️</text> -->
 
   <!-- <text>result:{{result}}</text>  -->
   <!-- <text>json:{{json}}</text>  -->
@@ -100,7 +102,7 @@
       </view>
     </view>
   </scroll-view> -->
-  <button class="button" type="primary" bindtap="scanCode">扫描连接</button>
-  <button type="default" class="button" bindtap="writeBLECharacteristicValue" loading="{{bool}}">打印</button>
+  <!-- <button class="button" type="primary" bindtap="scanCode">扫描连接</button>
+  <button type="default" class="button" bindtap="writeBLECharacteristicValue" loading="{{bool}}">打印</button> -->
   <!-- <navigator url="../print/print?deviceId={{deviceId}}&serviceId={{serviceId}}&characteristicId={{characteristicId}}" >跳转到新页面</navigator>   -->
 </view>
