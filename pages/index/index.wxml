@@ -64,7 +64,7 @@
   </view>
 
 
-  <view class="print|bottom_line" bindtap="sendPrinterData" loading="{{bool}}">
+  <view class="print|bottom_line" bindtap="sendprinterdata" loading="{{bool}}">
     <view class="look_state_left">
       <image class="look_state_image_left" src="/images/4.png"></image>
       <view class="look_state_center">

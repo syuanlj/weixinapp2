@@ -12,4 +12,21 @@
   justify-content: center;
   background-color: green;
   height: 100rpx;
+  color: white
+}
+
+.third {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 40rpx;
+  align-items: center;
+  background-color: gainsboro;
+  border-bottom: 2rpx #ccc;
+}
+
+.fourth{
+  display: flex;
+  background: gainsboro;
+  padding-left: 40rpx;
 }

@@ -1,8 +1,10 @@
-<view class="view1" bindtap="toastyunda">
-  <text>韵达</text>
-  
-</view>
-
-<view class="view2" bindtap="toastkuayue">
-  <text>跨越速运</text>
-</view>
+<scroll-view scroll-y="true">
+  <view class='third'> 3寸</view>
+  <view class="view1" bindtap="toastyunda">
+    <text>韵达</text>
+  </view>
+  <view class='fourth'>4寸</view>
+  <view class="view2" bindtap="toastkuayue">
+    <text>跨越速运</text>
+  </view>
+</scroll-view>

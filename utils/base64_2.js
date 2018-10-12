@@ -1,4 +1,7 @@
 function Base64() {
+  
+
+  //base64
   var keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
   //中国asp之家 http://www.aspxhome.com
   this.encode = function (input) {
